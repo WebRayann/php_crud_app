@@ -18,7 +18,7 @@ if(isset($_POST['username']) && !empty($_POST['password'])){
     $count = $query->rowCount();
     if($count > 0){
         $_SESSION['username'] = $_POST['username'];
-        header('Location: login_suc.php');
+        header('Location: index.php');
     }else{
         $msg = "Username Or Password is Invalid";
     }

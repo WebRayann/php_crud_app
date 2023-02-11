@@ -1,7 +1,8 @@
 <?php
-
+session_start();
 include 'header.php';
 include 'navbar.php';
+require_once('config.php');
 ?>
 
 <section style="background-color: #eee;">
